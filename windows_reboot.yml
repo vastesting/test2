@@ -1,0 +1,5 @@
+---
+- hosts: windows2
+
+  tasks:
+    - win_reboot:
