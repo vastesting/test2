@@ -1,0 +1,8 @@
+---
+- hosts: windows1
+gather_facts: yes
+
+tasks:
+  - win_chocolatey:
+      name: notepadplusplus.install
+      version: 6.6
